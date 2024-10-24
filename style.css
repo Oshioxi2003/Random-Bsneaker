@@ -13,6 +13,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: url(images/pc.svg);
+	background-size: cover;
 }
 
 * {
@@ -23,10 +25,13 @@ body {
 
 .msg {
 	min-height: 4rem;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Calibri, sans-serif;
 	margin-top: 0.5rem;
 	text-transform: capitalize;
+	text-align: center;
+	color: #fff;
 }
+
 
 ul {
 	position: relative;
@@ -34,7 +39,7 @@ ul {
 	margin: 1rem 0;
 	width: var(--size-wheel);
 	height: var(--size-wheel);
-	border: 10px solid rgb(0, 12, 184);
+	border: 10px solid rgb(255, 238, 7);
 	border-radius: 50%;
 	list-style: none;
 	overflow: hidden;
@@ -54,7 +59,7 @@ span::before {
 	left: 50%;
 	border-left: 2rem solid transparent;
 	border-right: 2rem solid transparent;
-	border-top: 4rem solid rgb(255, 217, 0);
+	border-top: 4rem solid rgb(255, 255, 255);
 	z-index: 2;
 	transform: translateX(-50%);
 	animation: arrow ease-out 0.6s infinite;
@@ -95,7 +100,7 @@ li {
 }
 
 .text {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Calibri, sans-serif;
 	position: absolute;
 	left: -100%;
 	width: 200%;
@@ -114,11 +119,11 @@ li {
 }
 
 .text-1 {
-	background-color: rgb(0, 89, 255);
+	background-color: rgb(248, 43, 111);
 }
 
 .text-2 {
-	background-color: rgb(126, 182, 255);
+	background-color: rgb(98, 139, 203);
 }
 
 .main {
@@ -132,16 +137,18 @@ button {
 	display: inline-block;
 	text-align: center;
 	border: 0;
-	background-color: #333;
-	color: #fff;
+	background-color: #ffffff;
+	color: #000000;
 	font-size: 1.5rem;
 	border-radius: 4rem;
 	padding: 0.5rem 1.5rem;
 	width: auto;
 	cursor: pointer;
 	outline: none;
+	font-family: Calibri, sans-serif;
 }
 
 button:hover {
 	opacity: 0.8;
 }
+
